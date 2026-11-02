@@ -6,4 +6,4 @@ console.log(balance);
 balance = balance - Number(name[2]);
 console.log(balance);
 balance = balance - Number(name[3]);
-console.log(fee);
+console.log(balance);
