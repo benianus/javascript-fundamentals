@@ -1,4 +1,4 @@
-const name = require("fs").readFileSync(0, "utf-8").trim();
+const name = require("fs").readFileSync(0, "utf-8").trim().split("\n");
 // Print the two lines below.
 let balance = Number(name[0]);
 let deposit = balance + Number(name[1]);
